@@ -123,6 +123,7 @@ h5 {
 }
 #home img {
 	width: 300px;
+	box-shadow: 30px 30px 30px 10px rgba(0, 0, 0, 0.175);
 }
 @media (max-width: 768px) {
 	#home h1 {
