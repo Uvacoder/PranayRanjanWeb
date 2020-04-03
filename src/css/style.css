@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap");
 /* All necessary */
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background: #353353;
 	color: white;
@@ -67,15 +70,10 @@ h5 {
 .navbar-toggler span {
 	color: yellow !important;
 }
-.all-content {
-	margin-top: 100px;
-}
 /* Main Page */
 #home {
-	height: 88vh;
-}
-#home .row {
-	margin-top: 270px;
+	height: 100vh;
+	padding-top: 270px;
 }
 #home .text {
 	padding-top: 60px;
