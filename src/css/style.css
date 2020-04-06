@@ -316,11 +316,15 @@ h5 {
 	width: 46%;
 	float: left;
 	border: 1px solid #d4d4d4;
+	box-shadow: 10px 10px 30px 4px rgba(0, 0, 0, 0.275) !important;
 	border-radius: 2px;
 	padding: 20px;
 	position: relative;
-	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	transition: 0.23s ease-in all;
+}
+.timeline > li > .timeline-panel:hover {
+	background-color: #2f2d47;
+	transform: translateX(-30px);
 }
 
 .timeline > li > .timeline-panel:before {
@@ -368,6 +372,9 @@ h5 {
 
 .timeline > li.timeline-inverted > .timeline-panel {
 	float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:hover {
+	transform: translateX(30px);
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
