@@ -143,7 +143,7 @@ h5 {
 		font-size: 15px;
 	}
 	#home .text {
-		padding-top: 20px;
+		padding-top: 200px;
 	}
 	#home .row {
 		margin-top: 20px;
@@ -256,12 +256,7 @@ h5 {
 	margin: 14px;
 	transition: 0.21s ease-in all;
 }
-#certificates .imgcerti:hover {
-	box-shadow: 10px 10px 30px 5px rgba(129, 129, 129, 0.44);
-	transform: translate(-6px, -2px);
-	max-width: 102%;
-	margin: 12px;
-}
+
 @media (max-width: 768px) {
 	#certificates .imgcerti {
 		margin: 7px auto;
@@ -334,7 +329,6 @@ h5 {
 }
 .timeline > li > .timeline-panel:hover {
 	background-color: #0e0d33;
-	transform: translateX(-30px);
 }
 
 .timeline > li > .timeline-panel:before {
@@ -383,9 +377,8 @@ h5 {
 .timeline > li.timeline-inverted > .timeline-panel {
 	float: right;
 }
-.timeline > li.timeline-inverted > .timeline-panel:hover {
-	transform: translateX(30px);
-}
+
+
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
 	border-left-width: 0;
@@ -500,4 +493,25 @@ h5 {
 .slides-content h1 {
 	font-weight: 900;
 	font-size: 80px;
+}
+
+
+@media (min-width: 768px) {
+
+	.timeline > li.timeline-inverted > .timeline-panel:hover {
+		transform: translateX(30px);
+	}
+
+	.timeline > li > .timeline-panel:hover {
+		background-color: #0e0d33;
+		transform: translateX(-30px);
+	}
+	
+
+	#certificates .imgcerti:hover {
+		box-shadow: 10px 10px 30px 5px rgba(129, 129, 129, 0.44);
+		transform: translate(-6px, -2px);
+		max-width: 102%;
+		margin: 12px;
+	}
 }
